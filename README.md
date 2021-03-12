@@ -1,4 +1,4 @@
-# Intro to Web Dev Demo
+# Intro to Web Dev Workshop Demo
 
 A demo for Intro To Wev Dev workshop
 
