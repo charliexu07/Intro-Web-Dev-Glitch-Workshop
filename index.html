@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!-- Introduce HTML Elements
+     Never skip end tag with some exceptions:<link.../>, <img.../>, <hr />, <br /> --- void elements
+     Examples: <html>, <body>, <h1>, <p> -->
+<html>
+  <!-- The head part -->
+  <head>
+    <!-- The title will be shown on web browser -->
+    <title>My Personal Website</title>
+    
+    <!-- Internal CSS -->
+    <style>
+      h2 {
+        background-color: lightblue;
+        color: black;
+        padding: 40px;
+        text-align: center;
+      }
+    </style>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  
+  <!-- The body part -->
+  <body>
+    <!-- Example of a Heading -->
+    <h1>This is a Heading</h1>
+    <!-- Example of a paragraph -->
+    <p>This is a paragraph</p>
+    <!-- Example of a link -->
+    <a href="https://www.google.com">This is a link</a>
+    <!-- Example of an image -->
+    <img
+      src="https://cdn.glitch.com/c209ee83-10b4-437e-9c44-3659eaed2c93%2FVanderbilt_Logo.png?v=1615509089294"
+      width="142"
+      height="142"
+    />
+
+    <!-- Introduce HTML Attributes
+         Suggestion: always lower case and quote
+         Examples: href, scr, width, height, style, title -->
+    <!-- Example of a style attribute (will go into details later) -->
+    <p style="color:red;">This is a red paragraph.</p>
+    <!-- Example of a title attribute -->
+    <p title="I'm a tooltip">This is a paragraph with a title.</p>
+
+    <!-- Introduce HTML Heading
+         Examples: h1, h2, h3 -->
+    <h1>This is a h1 Heading</h1>
+    <h2>This is a h2 Heading</h2>
+    <h3>This is a h3 Heading</h3>
+
+    <!-- Introduce HTML Paragraph
+         Examples: <hr>, <br>, <pre> -->
+    <!-- Example of a thematic break -->
+    <hr />
+    <!-- Example of a line break -->
+    <p>
+      This is a <br />
+      paragraph with a break
+    </p>
+    <!-- Example of preformatted text -->
+    <pre>
+      This is
+      a piece of 
+      pre-formatted
+      Text.
+    </pre>
+
+    <!-- Introduce HTML Styles
+         style="property:value;"
+         Examples: background-color, color, font-family, font-size, text-align -->
+    <!-- Example of background-color -->
+    <p style="background-color:orange;">
+      This paragraph has orange background color
+    </p>
+    <!-- Example of text-color -->
+    <p style="color:red;">This paragraph has red text color</p>
+    <!-- Example of font-family -->
+    <p style="font-family:verdana;">This paragraph has font verdana</p>
+    <!-- Example of font-size -->
+    <p style="font-size:200%;">This paragraph has 200% font size</p>
+    <!-- Example of text-alignment -->
+    <p style="text-align:center;">This paragraph has been centered</p>
+
+    <!-- Introduce HTML Formatting
+         Examples: <b>, <i>, <sub>, <sup> -->
+    <!-- Example of bold text -->
+    <p><b>This text is bold</b></p>
+    <!-- Example of italictext -->
+    <p><i>This text is italic</i></p>
+    <!-- Example of subscript and superscript text -->
+    <p>This is<sub> subscript</sub> and <sup>superscript</sup></p>
+    
+    <!-- Introduce HTML id and class 
+         Difference: A class name can be used by multiple HTML elements, while 
+         an id name must only be used by one HTML element within the page -->
+    
+    <p id="pID">One paragraph with id "pID"</p>
+    <p class="pClass">One paragraph with id "pClass"</p>
+    <p class="pClass">Another paragraph with id "pClass"</p>
+  </body>
+</html>
