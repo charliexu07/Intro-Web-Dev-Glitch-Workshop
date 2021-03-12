@@ -5,7 +5,7 @@ A demo for Intro To Wev Dev workshop
 ## Project Overview
 
 - Edit `index.html` to change the content of the webpage
-- style.css` is the styles for `index.html`
+- `style.css` is the styles for `index.html`
 
 ## Useful Links
 
