@@ -14,5 +14,6 @@ A demo for Intro To Wev Dev workshop
 - [HTML Element References](https://www.w3schools.com/tags/)
 - [HTML/CSS Color Names](https://www.w3schools.com/colors/colors_names.asp)
 - [CSS Property References](https://www.w3schools.com/cssref/default.asp)
+- [Empty Template](https://github.com/charliexu07/Intro-Web-Dev-Glitch-Workshop-Template)
 
 ( ᵔ ᴥ ᵔ )
